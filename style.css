@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: 'Roboto Slab,serif';
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+nav ul img{
+    width: 50px;
+    
+}
+nav ul li{
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: small;
+    padding: 0 12px;
+}
+
+
+
+.container{
+    min-height: 40vh;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    width: 70%;
+    margin: 3px auto;
+    border-radius: 12px;
+
+}
+
+.bottom{
+    position:absolute;
+    height: 130px;
+    background-color: black;
+    left: 0%;
+    top: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #add8e6;
+    flex-direction: column;
+    width: 100%;   
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songitem{
+   height: 60px;
+   display: flex;
+   background-color: white;
+   width: 40%;
+   color: black;
+   margin: 12 0px;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 20px;
+   margin-left: 5%;
+   font-weight: bolder;
+}
+.songitem img{
+   width: 14%;
+   margin: 0 23px;
+   border-radius: 30px;
+}
+.songitem i{
+    cursor: pointer;
+}
+.songlist h1{
+    font-size: 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+#gif{
+    position: absolute;
+    bottom: 40%;
+    left:5%;
+    opacity: 0;
+    transition:opacity 1s ease-in ;
+}
+#masterSongName{
+    position: absolute;
+    bottom: 50%;
+    left: 13%;
+}
